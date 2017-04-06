@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title></title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<style>
+		@font-face{
+			src: url(fonts/Eurostar/ufonts.com_eurostar-black-extended-webfont.woff);
+			font-family: "Eurostar";
+		}
+		body {
+			font-family: "Eurostar";
+			background: black;
+			background-repeat: repeat;
+			color: #fff;
+			font-size:16px;
+			margin: 0px;
+			height: 100%;
+			overflow: hidden;
+			-webkit-transform:translate3d(0,0,0);
+
+			/*text-align: center;*/
+			/*cursor: none;*/
+
+		}
+		#nav{
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			margin: 1em;
+		}
+		#nav h1 {
+			margin: 0;
+			font-size: 300%;
+		}
+		#container{
+			margin: 0 auto;
+			position: fixed;
+			z-index: 0;
+			/*text-align: center;*/
+		}
+
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<h1>DIMODA</h1>
+	</div>
+	<div id="container"></div>
+	<script src="scripts/js/jquery-3.1.1.min.js"></script>
+	<script src="scripts/js/three.min.js"></script>
+	<script src="scripts/js/OrbitControls.js"></script>
+	<script src="scripts/js/CCapture.min.js"></script>
+	<script src="scripts/js/gif.js"></script>
+	<script src="scripts/js/dat.gui.min.js"></script>
+	<script src="scripts/js/TweenMax.min.js"></script>
+	<script src="scripts/js/Whammy.js"></script>
+	<script src="scripts/js/OBJLoader.js"></script>
+	<script src="scripts/js/RGBELoader.js"></script>
+	<script src="scripts/js/HDRCubeTextureLoader.js"></script>
+
+	<script src="scripts/js/PMREMGenerator.js"></script>
+	<script src="scripts/js/PMREMCubeUVPacker.js"></script>
+	<script src="scripts/js/Postprocessing.js"></script>
+
+	<script src="scripts/js/main.js"></script>
+	
+</body>
+</html>
